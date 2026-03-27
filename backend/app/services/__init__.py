@@ -44,6 +44,13 @@ from .story_planner import (
     Scene,
     CharacterInput,
 )
+from .narrative_space import (
+    NarrativeSpace,
+    NarrativeEnvironment,
+    NarrativeAction,
+    SceneResult,
+    StoryResult,
+)
 
 __all__ = [
     "OntologyGenerator",
@@ -83,4 +90,9 @@ __all__ = [
     "ChapterOutline",
     "Scene",
     "CharacterInput",
+    "NarrativeSpace",
+    "NarrativeEnvironment",
+    "NarrativeAction",
+    "SceneResult",
+    "StoryResult",
 ]
