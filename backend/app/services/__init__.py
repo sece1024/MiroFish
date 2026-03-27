@@ -51,6 +51,11 @@ from .narrative_space import (
     SceneResult,
     StoryResult,
 )
+from .chapter_writer import (
+    ChapterWriter,
+    ChapterNovel,
+    NovelResult,
+)
 
 __all__ = [
     "OntologyGenerator",
@@ -95,4 +100,7 @@ __all__ = [
     "NarrativeAction",
     "SceneResult",
     "StoryResult",
+    "ChapterWriter",
+    "ChapterNovel",
+    "NovelResult",
 ]
